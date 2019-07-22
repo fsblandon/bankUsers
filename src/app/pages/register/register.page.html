@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title color="dark">
+      Registrarse
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="tertiary">
+  <div  class="ion-padding" 
+        style="margin-top: 50%;">
+        <form [formGroup]="userForm"
+              (ngSubmit)="addUser()">
+          <ion-item class="input-item">
+              <ion-label position="floating">
+                Identificación
+              </ion-label>
+              <ion-input  type="number"
+                          formControlName="identification"
+                          clearInput
+                          required>
+              </ion-input>
+          </ion-item>
+          <ion-item class="input-item">
+              <ion-label position="floating">
+                Nombre
+              </ion-label>
+              <ion-input  type="text"
+                          formControlName="name"
+                          clearInput
+                          required>
+              </ion-input>
+          </ion-item>
+          <ion-item class="input-item">
+              <ion-label position="floating">
+                Apellido
+              </ion-label>
+              <ion-input  type="text"
+                          formControlName="lastName"
+                          clearInput
+                          required>
+              </ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label>Fecha de nacimiento</ion-label>
+              <ion-datetime formControlName="birthDay" 
+                            placeholder="Select Date">
+              </ion-datetime>
+          </ion-item>
+          <div class="ion-text-center ion-padding">
+            <ion-button color="primary"
+                        type="submit"
+                        [disabled]="!userForm.valid">
+                    Registrar
+            </ion-button>
+          </div>
+        </form>
+  </div>
+</ion-content>
