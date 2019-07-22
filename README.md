@@ -38,4 +38,6 @@ $ ionic serve
 ```
 $ npm test
 ```
+## Correr la app en un dispositivo Android:
 
+Instalar el archivo "app-debug.apk" del codigo en tu dispositivo Android.
