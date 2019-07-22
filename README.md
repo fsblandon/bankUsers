@@ -1,7 +1,7 @@
 # Configurar ambiente local
 
 
-## 1. Instalar ionic y node:
+## 1. Instalar Ionic y Node:
 
 ```
 $ npm install -g npm@latest
