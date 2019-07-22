@@ -23,15 +23,17 @@ $ npm install @ionic/angular@latest --save
 $ git clone https://github.com/fsblandon/bankUsers.git
 ```
 
-## 4. Installar la carpeta node modules:
+## 4. Installar npm en el proyecto
 
-_Ubicarse en la carpeta donde clonaste el proyecto para correr el siguiente comando:
+Ubicarse en la carpeta donde clonaste el proyecto para correr el siguiente comando:
 
 ```
 $ npm install --save
 ```
 
 ## 5. Correr el proyecto Ionic:
+
+Desde la carperta donde tienes el proyecto:
 
 ```
 $ ionic serve
