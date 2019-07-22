@@ -38,7 +38,7 @@ Desde la carperta donde clonaste el proyecto:
 ```
 $ ionic serve
 ```
-## Para correr los test de la aplicaión:
+## Para correr los test de la aplicación:
 
 ```
 $ npm test
