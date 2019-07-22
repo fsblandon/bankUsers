@@ -31,9 +31,9 @@ Ubicarse en la carpeta donde clonaste el proyecto para correr el siguiente coman
 $ npm install --save
 ```
 
-## 5. Correr el proyecto Ionic:
+## 5. Correr el proyecto Ionic
 
-Desde la carperta donde tienes el proyecto:
+Desde la carperta donde clonaste el proyecto:
 
 ```
 $ ionic serve
