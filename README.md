@@ -12,13 +12,13 @@ $ npm install -g ionic
 
 ## 2. Clonar el proyecto desde el repositorio:
 
-Ubicarse en cualquier carpeta donde desea clonar el proyecto.
+Ubicarse en cualquier carpeta de tu equipo para clonar el proyecto.
 
 ```
 $ git clone https://github.com/fsblandon/bankUsers.git
 ```
 
-## 3. Installar npm en el proyecto
+## 3. Instalar npm en el proyecto
 
 Ubicarse en la carpeta donde clonaste el proyecto para correr el siguiente comando:
 
